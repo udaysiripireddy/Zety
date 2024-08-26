@@ -1,0 +1,325 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: block;
+    margin: 0rem 6rem;
+    box-sizing: border-box;
+    color: #777;
+    text-align: center;
+}
+
+/* Headings */
+.Main-Heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Buttons */
+.Yellow-Button {
+    background-color: #fad12d;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 20px auto;
+    height: 35px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Yellow-Button:hover {
+    background-color: #FFC107;
+}
+
+/* Info Cards */
+.Info-Card {
+    display: flex;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Info-Card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.Info-Card h5 {
+    color: #333;
+}
+
+.Info-Card p {
+
+    color: #666;
+}
+
+/* Image Section */
+.Full-Width-Image {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+}
+
+/* Company Logos */
+.Company-Logo-Container {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.Company-Logo-Container img {
+    max-width: 150px;
+    margin: 0 10px;
+}
+
+/* Count Info Cards */
+.Count-Info-Section {
+
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+}
+
+.Count-Card-Container {
+
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.CountCard {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+}
+
+.Counts {
+    color: rgb(10, 10, 65);
+    font-size: large;
+}
+
+.CountCardStyle {
+    width: 100px;
+}
+
+.count-number {
+    font-size: 2rem;
+    color: #333;
+}
+
+.count-text {
+    color: #777;
+}
+
+/* Template Section */
+.Template-Section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dbd4d4;
+    margin: 20px 0;
+}
+
+.Template-Content {
+    display: flex;
+    align-items: center;
+}
+
+.Template-Icon {
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.Template-Title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.Template-Description {
+    color: #666;
+}
+
+.Template-Button {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.Template-Button-Last {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 45%;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+}
+
+.Template-Button:hover {
+    background-color: #FFC107;
+}
+
+/* Step Cards */
+.Step-Card-Container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 30px;
+    height: 400px;
+    transition: transform .2s;
+}
+
+.Step-Card:hover {
+    transform: scale(1.1);
+}
+
+.Step-Card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Step-Card img {
+    max-width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.Step-Button {
+    background-color: #1c1c1b;
+    color: #f0e7e7;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.Step-Card p {
+    color: #666;
+}
+
+/* Resume Templates */
+.Resume-Template-Card-Container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Resume-Template-Section {
+    display: block;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.Resume-Template-Section:hover {
+    transform: scale(1.1);
+}
+
+.Resume-Template-Section img {
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+
+.Resume-Template-Section p {
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Hover Cards */
+.Hover-Card-Container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.Hover-Card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}
+
+.Hover-Card:hover {
+    transform: scale(1.1);
+}
+
+.Hover-Card img {
+    height: 300px;
+    width: 200px;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+}
+
+.resume-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/*try section*/
+.Try-Section {
+    height: 500px;
+    width: 100%;
+    background-color: #087bee;
+    color: #1c1c1b;
+    display: flex;
+    gap: 30px;
+}
+
+.Try-Section img {
+    padding-top: 14%;
+    height: 400px;
+    width: 400px;
+}
+
+.Try-Text {
+    padding-top: 150px;
+    justify-content: center;
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.faq-section h2 {
+    color: #333;
+}
+
+.faq-section p {
+    color: #666;
+}
